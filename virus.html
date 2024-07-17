@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Viewport meta tags -->
+        <meta charset="utf-8">
+        <meta name="keywords" content="health, article, magazine">
+        <meta name="description" content="health topical magazine">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/virus.css">
+
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/virus.js" defer></script>
+
+        <title>WD Project: Virus</title>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+        <nav role="navigation" class="page-nav container-fluid">
+            <div class="row">
+
+                <div class="logo col-2">
+                    <a href="index.html">ProjectHealth</a>
+                </div>
+                <div class="col"></div>
+                <div class="navs-div col-2" id="navs-1-div">
+                    <a class="navs" id="navs-1" href="">Topics</a>
+                    <div class="nav-dropdown">
+                        <a href="virus.html" class="nav-dropdown-div"><div>Virus</div></a>
+                        <a href="drugs.html" class="nav-dropdown-div"><div>Drugs</div></a>
+                        <a href="environment.html" class="nav-dropdown-div"><div>Environment</div></a>
+                        <a href="ageing.html" class="nav-dropdown-div"><div>Ageing</div></a>
+                        <a href="facts.html" class="nav-dropdown-div"><div>Facts</div></a>
+                    </div>
+                </div>
+                <div class="navs-div col-1" id="navs-2-div" onmouseover="mouseoverNavsLink('navs-2')" onmouseout="mouseoutNavsLink('navs-2')">
+                    <a class="navs" id="navs-2" href="">Countries</a>
+                </div>
+                <div class="navs-div col-1" id="navs-3-div" onmouseover="mouseoverNavsLink('navs-3')" onmouseout="mouseoutNavsLink('navs-3')">
+                    <a class="navs" id="navs-3" href="">Data</a>
+                </div>
+                <div class="navs-div col-1" id="navs-4-div" onmouseover="mouseoverNavsLink('navs-4')" onmouseout="mouseoutNavsLink('navs-4')">
+                    <a class="navs" id="navs-4" href="">About</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main role="main" class="page-main container-fluid">
+
+            <header role="banner" class="page-header">
+                <h1 class="header-title">MONKEY POX</h1>
+                <hr class="header-line">
+            </header>
+            
+            <!-- Collapsing Questions Using Bootstrap Collapse -->
+            <article class="row-cols-1">
+
+                <!-- Question 1 -->
+                <button class="qn-button col" onclick="changebtn(0)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                        <h6>What is monkey pox?</h6>
+                </button>
+                <div class="collapse" id="collapse-1">
+                    <div class="card card-body">
+                        Monkeypox is an illness caused by the monkeypox virus. It is a viral zoonotic infection, meaning that it can spread from animals to humans. It can also spread from person to person.
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Question 2 -->
+                <button class="qn-button col" onclick="changebtn(1)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                    <h6>What are the symptoms of monkeypox?</h6>
+                </button>
+                <div class="collapse" id="collapse-2">
+                    <div class="card card-body">
+                        Monkeypox can cause a range of signs and symptoms.  While some people have mild symptoms, others may develop more serious symptoms and need care in a health facility. Those at higher risk for severe disease or complications include people who are pregnant, children and persons that are immunocompromised.
+                        <br>
+                        <br>
+                        The most common symptoms of monkeypox include fever, headache, muscle aches, back pain, low energy, and swollen lymph nodes. This is followed or accompanied by the development of a rash which can last for two to three weeks. The rash can be found on the face, palms of the hands, soles of the feet, eyes, mouth, throat, groin, and genital and/or anal regions of the body. The number of lesions can range from one to several thousand. Lesions begin flat, then fill with liquid before they crust over, dry up and fall off, with a fresh layer of skin forming underneath.
+                        <br>
+                        <br>
+                        <img class="qn-img" src="images/virus/monkeypox-symptoms.jpg" alt="monkeypox symptoms">
+                        <br>
+                        Symptoms typically last two to three weeks and usually go away on their own or with supportive care, such as medication for pain or fever. People remain infectious until all of the lesions have crusted over, the scabs fallen off and a new layer of skin has formed underneath.
+                        <br>
+                        <br>
+                        Anyone who has symptoms that could be monkeypox or who has been in contact with someone who has monkeypox should call or visit a health care provider and seek their advice.
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Question 3 -->
+                <button class="qn-button col" onclick="changebtn(2)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                    <h6>Can people get seriously ill or die from monkeypox?</h6>
+                </button>
+                <div class="collapse" id="collapse-3">
+                    <div class="card card-body">
+                        In most cases, the symptoms of monkeypox go away on their own within a few weeks. However, in some people, an infection can lead to medical complications and even death. Newborn babies, children and people with underlying immune deficiencies may be at risk of more serious symptoms and death from monkeypox.
+                        <br>
+                        <br>
+                        Complications from monkeypox include secondary skin infections, pneumonia, confusion, and eye problems. In the past, between 1% to 10% of people with monkeypox have died.  It is important to note that death rates in different settings may differ due to a number of factors, such as access to health care. These figures may be an overestimate because surveillance for monkeypox has generally been limited in the past. In the newly affected countries where the current outbreak is taking place, there have been no deaths to date.
+                    </div>
+                </div>
+                <hr>
+                
+                <!-- Question 4 -->
+                <button class="qn-button col" onclick="changebtn(3)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                    <h6>How does monkeypox spread from animals to humans?</h6>
+                </button>
+                <div class="collapse" id="collapse-4">
+                    <div class="card card-body">
+                        Monkeypox can spread to people when they come into physical contact with an infected animal. Animal hosts include rodents and primates. The risk of catching monkeypox from animals can be reduced by avoiding unprotected contact with wild animals, especially those that are sick or dead (including their meat and blood). In endemic countries where animals carry monkeypox, any foods containing animal meat or parts should be cooked thoroughly before eating.
+                    </div>
+                </div>
+                <hr>
+                
+                <!-- Question 5 -->
+                <button class="qn-button col" onclick="changebtn(4)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                    <h6>Who is at risk of catching monkeypox?</h6>
+                </button>
+                <div class="collapse" id="collapse-5">
+                    <div class="card card-body">
+                        People who live with or have close contact (including sexual contact) with someone who has monkeypox, or who has regular contact with animals who could be infected, are most at risk. Health workers should follow infection prevention and control measures to protect themselves while caring for monkeypox patients.
+                        <br>
+                        <br>
+                        Newborn infants, young children and people with underlying immune deficiencies may be at risk of more serious symptoms, and in rare cases, death from monkeypox.
+                        <br>
+                        <br>
+                        <img class="qn-img" src="images/virus/monkeypox-children.webp" alt="children with monkeypox">
+                        <br>
+                        People who were vaccinated against smallpox may have some protection against monkeypox. However, younger people are unlikely to have been vaccinated against smallpox because smallpox vaccination stopped in most settings worldwide after it was eradicated in 1980. People who have been vaccinated against smallpox should continue to take precautions to protect themselves and others.
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Question 6 -->
+                <button class="qn-button col" onclick="changebtn(5)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                    <h6>How can I protect myself and others against monkeypox?</h6>
+                </button>
+                <div class="collapse" id="collapse-6">
+                    <div class="card card-body">
+                        Reduce your risk of catching monkeypox by limiting close contact with people who have suspected or confirmed monkeypox, or with animals who could be infected. Clean and disinfect environments that could have been contaminated with the virus from someone who is infectious regularly. Keep yourself informed about monkeypox in your area and have open conversations with those you come into close contact (especially sexual contact) with about any symptoms you or they may have.
+                        <br>
+                        <br>
+                        If you think you might have monkeypox, you can act to protect others by seeking medical advice and isolating from others until have been evaluated and tested. If you have probable or confirmed monkeypox, you should isolate from others until all of your lesions have crusted over, the scabs have fallen off and a new layer of skin has formed underneath. This will stop you from passing on the virus to others. Get advice from your health worker on whether you should isolate at home or in a health facility. Until more is understood about transmission through sexual fluids, use condoms as a precaution whilst having sexual contact for 12 weeks after you have recovered.
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Question 7 -->
+                <button class="qn-button col" onclick="changebtn(6)" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+                    <h6>Is there a vaccine against monkeypox?</h6>
+                </button>
+                <div class="collapse" id="collapse-7">
+                    <div class="card card-body">
+                        Yes. A vaccine was recently approved for preventing monkeypox. Some countries are recommending vaccination for persons at risk. Many years of research have led to development of newer and safer vaccines for an eradicated disease called smallpox, which may also be useful for monkeypox. One of these has been approved for prevention of monkeypox. Only people who are at risk (for example someone who has been a close contact of someone who has monkeypox) should be considered for vaccination. Mass vaccination is not recommended at this time.
+                        <br>
+                        <br>
+                        <img class="qn-img" src="images/virus/monkeypox-test.webp" alt="monkeypox test tubes">
+                        <br>
+                        While the smallpox vaccine was shown to be protective against monkeypox in the past, current data on the effectiveness of newer smallpox/monkeypox vaccines in the prevention of monkeypox in clinical practice and in field settings are limited. Studying the use of vaccines for monkeypox wherever they are used will allow for rapid generation of additional information on the effectiveness of these vaccines in different settings.
+                    </div>
+                </div>
+
+            </article>
+
+        </main>
+
+        <!-- Read More Section -->
+        <div class="page-readmore container-fluid">
+            
+            <header class="readmore-header">
+                <h1 class="readmore-title">READ THIS NEXT</h1>
+                <hr class="readmore-line">
+            </header>
+
+            <!-- Read More Articles -->
+            <div class="readmore-article-div row">
+
+                <!-- Read More Article 1 -->
+                <a href="drugs.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/tobacco.jpg" alt="tobacco">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">12 August 2022 | Drugs</p>
+                        <hr class="readmore-article-line">
+                        <h5>Among smokers who are aware of the dangers of tobacco, most want to quit</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 2 -->
+                <a href="environment.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/environment.jpg" alt="windmill land">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">2 August 2022 | Environment</p>
+                        <hr class="readmore-article-line">
+                        <h5>Billions of people still breathe unhealthy air: new WHO data</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 3 -->
+                <a href="ageing.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/ageing.jpg" alt="ageing image">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">2 August 2022 | Ageing</p>
+                        <hr class="readmore-article-line">
+                        <h5>Global population and the challenges</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 4 -->
+                <a href="facts.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/tuberculosis.avif" alt="tuberculosis lungs">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">29 July 2022 | Facts</p>
+                        <hr class="readmore-article-line">
+                        <h5>10 Facts on tuberculosis you would want to know</h5>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href=""><img class="footer-icon" src="images/facebook.svg" alt="footer facebook icon"></a>
+            <a href=""><img class="footer-icon" src="images/instagram.svg" alt="footer instagram icon"></a>
+            <a href=""><img class="footer-icon" src="images/linkedin.svg" alt="footer linkedim icon"></a>
+            <a href=""><img class="footer-icon" src="images/twitter.svg" alt="footer twitter icon"></a>
+            <a href=""><img class="footer-icon" src="images/youtube.svg" alt="footer youtube icon"></a>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,268 @@
+/* Downloaded Fonts From https://www.cdnfonts.com/ */
+/* Logo Font */
+@font-face {
+    font-family: karmaticArcade;
+    src: url(/WD_Finals_Website/fonts/karmatic_arcade.ttf);
+}
+
+/* Navigation Font */
+@font-face {
+    font-family: itvReemWebmedium;
+    src: url(/WD_Finals_Website/fonts/itv_reem_webmedium.ttf);
+}
+
+/* Header Font */
+@font-face {
+    font-family: laborUnion;
+    src: url(/WD_Finals_Website/fonts/labor_union.otf);
+}
+
+body {
+    background-color: black;
+}
+
+/* Navigation Bar */
+.page-nav {
+    background-color: #C5FAD5;
+}
+
+.logo, .navs-div {
+    text-align: center;
+    margin: auto;
+    width: max-content;
+    padding-left: 2.1%;
+    padding-right: 2.1%;
+}
+
+.logo a, .logo a:hover, .logo a:focus, .logo a:active {
+    font-family: karmaticArcade;
+    font-size: 110%;
+    text-decoration: none;
+    color: black;
+}
+
+.navs {
+    font-family: itvReemWebmedium;
+    font-size: 103%;
+    text-decoration: none;
+    color: black;
+    line-height: 3rem;
+}
+
+#navs-1-div:hover .nav-dropdown {
+    display: block;
+}
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    text-align: left;
+    transform: translate(-25%);
+}
+
+.nav-dropdown-div {
+    background-color: #C5FAD5;
+    color: black;
+    font-family: itvReemWebmedium;
+    padding: 12% 150% 12% 25%;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-dropdown-div:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #C5FAD5;
+    text-align: center;
+}
+
+.footer-icon {
+    width: 2%;
+    height: 2%;
+    margin: 1%;
+}
+
+/* Pop Up */
+.popup-div {
+    background-color: antiquewhite;
+    color: black;
+    padding: 6.2px 2%;
+    z-index: 1;
+    position: fixed;
+}
+
+.popup-div p {
+    margin-bottom: 0;
+}
+
+.popup-div p a {
+    color: black;
+}
+
+.popup-div p span {
+    float: right;
+    cursor: pointer;
+}
+
+.popup-div-behind {
+    padding: 18.4px 2%;
+}
+
+/* Page Main Container */
+.page-main {
+    color: white;
+    padding: 0 10%;
+}
+
+/* Page Header*/
+.page-header {
+    text-align: center;
+    margin: 9% 0 7% 0;
+}
+
+.header-title {
+    padding-bottom: 1%;
+    font-family: laborUnion;
+    font-size: 350%;
+}
+
+.header-line {
+    border: 2px solid #C5FAD5;
+    background-color: #C5FAD5;
+    border-radius: 5px;
+    width: 70px;
+    opacity: 1;
+    margin: auto;
+}
+
+/* Latest Section */
+.latest-header {
+    font-family: laborUnion;
+}
+
+.latest-header-line {
+    border: 2px solid #C5FAD5;
+    background-color: #C5FAD5;
+    border-radius: 5px;
+    width: 45%;
+    opacity: 1;
+}
+
+.latest-article-div {
+    text-decoration: none;
+    color: white;
+    margin-top: 13%;
+}
+
+.latest-article-div:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.latest-img {
+    padding-left: 10%;
+    transition: transform .2s;
+}
+
+.latest-article-div:hover .latest-img {
+    transform: scale(1.1);
+}
+
+.latest-desc {
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+/* Featured Articles Section */
+.featured-img-div {
+    height: 38%;
+}
+
+.featured-img {
+    height: 100%;
+    padding: 0;
+}
+
+.featured-img-sm-div{
+    margin-top: 5%;
+}
+
+.featured-img-sm {
+    width: 100%;
+}
+
+.featured-img-sm-a {
+    width: 48.5%;
+}
+
+.featured-img-sm-a:last-of-type {
+    margin-left: 3%;
+}
+
+.featured-img-sm-a, .featured-img-div {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    transition: transform .2s;
+}
+
+.featured-img-sm-a:hover, .featured-img-div:hover{
+    color: black;
+    transform: translate(-2%, -2%);
+    background-color: #C5FAD5;
+}
+
+.featured-img-div:hover {
+    color: white;
+}
+
+.featured-img-sm-header {
+    margin-top: 5%;
+}
+
+.featured-img-sm-line {
+    border: 2px solid #C5FAD5;
+    background-color: #C5FAD5;
+    border-radius: 5px;
+    width: 25%;
+    opacity: 1;
+}
+
+.featured-img-sm-a:hover .featured-img-sm-line {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.featured-img-sm-card {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.featured-img-header, .featured-img-desc {
+    position: relative;
+    top: -50%;
+}
+
+/* Change style on different screen sizes */
+@media only screen and (max-width: 576px) {
+
+    /* Ensure Dropdown Stays Within Screen Width */
+    .nav-dropdown {
+        transform: translate(-117%);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header-title {
+        font-size: 250%;
+    }
+
+    .featured-img-div {
+        margin-top: 50px;
+    }
+}

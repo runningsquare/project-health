@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Viewport meta tags -->
+        <meta charset="utf-8">
+        <meta name="keywords" content="health, article, magazine">
+        <meta name="description" content="health topical magazine">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/ageing.css">
+
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script><!-- Apex Chart -->
+        <script type="text/javascript" src="js/ageing.js" defer></script>
+
+        <title>WD Project: Ageing</title>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+        <nav role="navigation" class="page-nav container-fluid">
+            <div class="row">
+
+                <div class="logo col-2">
+                    <a href="index.html">ProjectHealth</a>
+                </div>
+                <div class="col"></div>
+                <div class="navs-div col-2" id="navs-1-div">
+                    <a class="navs" id="navs-1" href="">Topics</a>
+                    <div class="nav-dropdown">
+                        <a href="virus.html" class="nav-dropdown-div"><div>Virus</div></a>
+                        <a href="drugs.html" class="nav-dropdown-div"><div>Drugs</div></a>
+                        <a href="environment.html" class="nav-dropdown-div"><div>Environment</div></a>
+                        <a href="ageing.html" class="nav-dropdown-div"><div>Ageing</div></a>
+                        <a href="facts.html" class="nav-dropdown-div"><div>Facts</div></a>
+                    </div>
+                </div>
+                <div class="navs-div col-1" id="navs-2-div" onmouseover="mouseoverNavsLink('navs-2')" onmouseout="mouseoutNavsLink('navs-2')">
+                    <a class="navs" id="navs-2" href="">Countries</a>
+                </div>
+                <div class="navs-div col-1" id="navs-3-div" onmouseover="mouseoverNavsLink('navs-3')" onmouseout="mouseoutNavsLink('navs-3')">
+                    <a class="navs" id="navs-3" href="">Data</a>
+                </div>
+                <div class="navs-div col-1" id="navs-4-div" onmouseover="mouseoverNavsLink('navs-4')" onmouseout="mouseoutNavsLink('navs-4')">
+                    <a class="navs" id="navs-4" href="">About</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Main 1 Content -->
+        <div class="page-main container-fluid">
+
+            <header role="banner" class="page-header">
+                <h1 class="header-title">AGEING: GLOBAL POPULATION</h1>
+                <hr class="header-line">
+            </header>
+
+            <!-- Content Part 1 -->
+            <section class="section-div row">
+                
+                <!-- Content Description -->
+                <div class="col-md-7 col-xs-12">
+
+                    <header role="banner">
+                        <h1 class="header-title-sm">WHY IS THE POPULATION AGEING?</h1>
+                        <hr class="header-line">
+                    </header>
+
+                    <div class="content-desc-div">
+                        <h6>The ageing of the world's populations is the result of the continued decline in fertility rates and increased life expectancy. This demographic change has resulted in increasing numbers and proportions of people who are over 60. As a result, the first time in history when there will be more older people than younger people is rapidly approaching.</h6>
+                    </div>
+
+                </div>
+
+                <!-- Content Chart from Apex Chart -->
+                <div class="col-md-5 col-xs-12">
+                    <div id="chart"></div>
+                </div>
+
+            </section>
+
+            <!-- Content Part 2 -->
+            <section class="section-div row">
+
+                <!-- Content Image -->
+                <div class="content-2-img-div col-md-5 col-xs-12">
+                    <img src="images/ageing/ageing-facilities.jpg" alt="ageing facilities">
+                </div>
+
+                <!-- Content Description -->
+                <div class="content-2-div col-md-7 col-xs-12">
+                    
+                    <header role="banner">
+                        <h1 class="header-title-sm">WHAT ISSUES RELATED TO AGEING ARE WHO WORKING ON?</h1>
+                        <hr class="header-line">
+                    </header>
+
+                    <div class="content-desc-div">
+                        <h6>WHO is working on three areas with a direct impact on ageing:</h6>
+                        <ul>
+                            <li>prevention of chronic disease;</li>
+                            <li>access to age-friendly primary health care;</li>
+                            <li>creation of age-friendly environments</li>
+                        </ul>
+                        <h6>WHO has developed guidelines that help countries to understand the types of programmes they can put in place to improve healthcare settings and cities so they are better suited to the needs of older people. WHO supports networks where countries can share technical information, discuss strategies and policies that have worked in their country to improve the lives of older people.</h6>
+                    </div>
+
+                </div>                
+
+            </section>
+
+        </div>
+
+        <!-- Infographic -->
+        <section class="lg-img-div container-fluid">
+            <img src="images/ageing/ageing-infographic.jpg" alt="ageing infographic">
+        </section>
+
+        <!-- Main 2 Content -->
+        <div class="page-main container-fluid">
+
+            <!-- Content Part 3 -->
+            <section class="section-div row">
+                
+                <!-- Content Description -->
+                <div class="col-md-7 col-xs-12">
+
+                    <header role="banner">
+                        <h1 class="header-title-sm">WHAT ROLES DO OLDER PEOPLE TAKE ON IN SOCIETY?</h1>
+                        <hr class="header-line">
+                    </header>
+
+                    <div class="content-desc-div">
+                        <h6>Older persons work in a paid or unpaid capacity, care for family members and friends, and carry out after-retirement work in organizations and associations. They pass their experiences onto younger generations and by doing so, they help them strengthen their capacities. A high percentage of older people care for their grandchildren or other relatives and friends regularly and thus, in case of grandchildren, are supporting their children. In Africa, for example, family support of grandparents plays a particularly important role supporting children, as the parent's generation has been strongly impacted by the effects of HIV/AIDS.</h6>
+                    </div>
+
+                </div>
+
+                <!-- Content Image -->
+                <div class="content-2-img-div col-md-5 col-xs-12">
+                    <img src="images/ageing/elderly-family.jpg" alt="elderly with grandchild">
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Read More Section -->
+        <div class="page-readmore container-fluid">
+            
+            <header class="readmore-header">
+                <h1 class="readmore-title">READ THIS NEXT</h1>
+                <hr class="readmore-line">
+            </header>
+
+            <!-- Read More Articles -->
+            <div class="readmore-article-div row">
+
+                <!-- Read More Article 1 -->
+                <a href="virus.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/virus.jpg" alt="medical staff looking at virus">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">12 August 2022 | Virus</p>
+                        <hr class="readmore-article-line">
+                        <h5>Monkeypox is an illness caused by the monkeypox virus and is a viral zoonotic infection</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 2 -->
+                <a href="drugs.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/tobacco.jpg" alt="tobacco">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">12 August 2022 | Drugs</p>
+                        <hr class="readmore-article-line">
+                        <h5>Among smokers who are aware of the dangers of tobacco, most want to quit</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 3 -->
+                <a href="environment.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/environment.jpg" alt="windmill land">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">2 August 2022 | Environment</p>
+                        <hr class="readmore-article-line">
+                        <h5>Billions of people still breathe unhealthy air: new WHO data</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 4 -->
+                <a href="facts.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/tuberculosis.avif" alt="tuberculosis lungs">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">29 July 2022 | Facts</p>
+                        <hr class="readmore-article-line">
+                        <h5>10 Facts on tuberculosis you would want to know</h5>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href=""><img class="footer-icon" src="images/facebook.svg" alt="footer facebook icon"></a>
+            <a href=""><img class="footer-icon" src="images/instagram.svg" alt="footer instagram icon"></a>
+            <a href=""><img class="footer-icon" src="images/linkedin.svg" alt="footer linkedim icon"></a>
+            <a href=""><img class="footer-icon" src="images/twitter.svg" alt="footer twitter icon"></a>
+            <a href=""><img class="footer-icon" src="images/youtube.svg" alt="footer youtube icon"></a>
+        </footer>
+
+    </body>
+
+</html>

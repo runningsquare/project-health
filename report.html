@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WD Final Website Report</title>
+
+    </head>
+
+    <body>
+
+        <h2 style="text-align: center; text-decoration: underline;">Report: Large Coursework</h2>
+        <h3 style="text-align: center;">Loo Xin Yun</h3>
+
+        <!-- Introduction -->
+        <h3 style="text-decoration: underline;">Introduction:</h3>
+        <p>For my website, I decided to do a topical magazine about health. In recent years, the world was struck by a global pandemic, covid, it was a big topic that everyone is talking about. As such, it got me into thinking that the topic about health is important as it is something that affects all of us. Hence, I wanted to create a website that can provide reliable information and bring awareness about important health issues/topics to people. 
+        </p>
+        <p>For my structure, I decided to implement the hierarchical model. Since the type of my website is informational, a hierarchical model can ensure that large amounts of information is organised into categories which makes it easier for users to find.
+        </p>
+
+        <!-- Inspiration -->
+        <h3 style="text-decoration: underline;">Inspiration:</h3>
+        <p>Since my website topic is about health, I looked up on the World Health Organisation website and was inspired by the wide variety of topics that they had, especially the facts section, where they listed down facts about a particular topic. I thought that was an interesting and fun way to convey information to readers. I settled on the following five topics that I wanted to bring more awareness to people for my website, namely the recently talked about virus- monkypox, drugs- tobacco, environemnt, ageing and facts- tuberculosis.
+        </p>
+        <p>National Geographic is another website that inspired me for my website's layout. Whenever I visit a website for information, I appreciate if their layout is clean, concise and easy to read which is what I envision my website to look like. An example of how I incorporated their layout style to my own website's layout is the display of my homepage's card feature.
+        </p>
+        <p>While researching for how I want my website's layout and design to look like, I got inspiration from a website sample template called Newserific from free-css website. I was captivated by how this website's layout looked clean. I realised this was due to their theme of having two main colors that work well together. Hence, without using their code, I decided to adapt this idea and made my website's theme a nice green color with black background.
+        </p>
+        <p><b>Inspirations:</b></p>
+        <ul>
+            <li>
+                <a href="https://www.who.int/" target="_blank">https://www.who.int/ (opens in a new window)</a>
+            </li>
+            <li>
+                <a href="https://www.nationalgeographic.com/" target="_blank">https://www.nationalgeographic.com/ (opens in a new window)</a>
+            </li>
+            <li>
+                <a href="https://www.free-css.com/free-css-templates/page2/newserific" target="_blank">https://www.free-css.com/free-css-templates/page2/newserific (opens in a new window)</a>
+            </li>
+        </ul>
+
+        <!-- Accessibility -->
+        <h3 style="text-decoration: underline;">Accessibility:</h3>
+        <p>In my website's HTML, I used semantic tags such as <code>nav</code> tag, <code>main</code> tag, <code>header</code> tag, <code>article</code> tag and <code>footer</code> tag. This helps a screen reader user with easier navigation of the site. Another way my website provided accessibility is through the <code>alt</code> tags which came along with images for users who are visually impaired. This can help them gather information on what the image is about. Lastly, for the links in my website that opens in a new tab, users are notified about it through the description "(opens in a new window)". This prevents users such as those navigating with a screen reader and those who have cognitive disabilities to be confused when a new tab opens unexpectedly.
+        </p>
+
+        <!-- Usability -->
+        <h3 style="text-decoration: underline;">Usability:</h3>
+        <p>I considered the usability of my website through adding a 'Read More' section at the bottom of every article. The 'Read More' section contains links to other articles available in the website. When users have read finish the current article, the 'Read More' section allows them to navigate to other articles easily to continue reading without needing to return to the home page.
+        </p>
+        <p>Another similar usability of my website is the navigation bar at the top of the website. It contains links to important and more frequented sections of the website, such as the home page, article topics, countries, data and the about section of the website. Since these links are available at every page the user visits, it will be convenient for them to navigate and find information in the website.
+        </p>
+        <p>As articles tend to have large chunks of information, another way I added usability to my website is by making these large chunks of information bite-sized and interactive to read. One example of this is in the article 'Virus: Monkey Pox' where the information is presented as questions and answers format. (<a href="https://www.who.int/news-room/questions-and-answers/item/monkeypox" target="_blank">inspired by the World Health Organisation (opens in a new window)</a>). Users can click on the questions which look like buttons, and answers to the question will appear below the button. If they click on the button again, the answers will collapse back into the questions. Another example of bite-sized and interactive information is in the article 'Facts: Tuberculosis', where I implemented a carousel to present information. The carousel contains 10 pictures, where when any picture is clicked on, the corresponding fact about tuberculosis will be displayed below the carousel.
+        </p>
+
+        <!-- Learning -->
+        <h3 style="text-decoration: underline;">Learning:</h3>
+        <p>As the website has to be responsive and cater to mobile screen sizes as well, I looked up how to use <a href="https://getbootstrap.com/docs/5.0/layout/grid/" target="_blank">Bootstrap's flexbox grid (opens in a new window)</a> to make the process easier. I learnt how to read Bootstrap's documentation so that I can understand what are their library classes that I can use, figure out what which ones that I need and how I can use them to apply to my own website. For example, by reading the introduction of the documentation for Bootstrap's flexbox grid, I learnt that the basic classes needed to implement responsive screen sizes are <code>container</code>, <code>row</code> and <code>column</code>, with <code>row</code> within <code>container</code> and <code>column</code> within <code>row</code> in the HTML. Upon further reading, I discovered that there are different kinds of classes that I can use, such as either using <code>container</code> or <code>container-fluid</code>. Thus, I had to consider what my website needs, in this case, I wanted to determine the padding of the website myself as I planned to have different sections in my website with varying amounts of padding. Hence, I decided to use <code>container-fluid</code> in my code.
+        </p>
+        <p>For my article 'Virus: Monkey Pox', I was planning to do a question and answer format inspired by the World Health Organisation's article as mentioned above in the usability section. Since I knew that Bootstrap provides a lot of implementations, such as navigation and carousel, I tried to search if it has something that I could use to implement what I wanted and that led to me finding <a href="https://getbootstrap.com/docs/4.0/components/collapse/" target="_blank">Bootstrap Collapse (opens in a new window)</a>. To start off, I tried to copy and paste the example code over to my own code just to test out if it works, how it looks like and understand how it works. To my horror, when I copied the exact same code from Bootstrap to my own editor, the code did not work. I turned to Google to find out why did Bootstrap's code not work and found many solutions proposed by others. I tried solutions that made sense to me and thankfully, found a <a href="https://stackoverflow.com/questions/22955916/bootstrap-collapse-not-collapsing" target="_blank">solution on stackoverflow (opens in a new window)</a> that worked. Turns out, the issue was that since I was using Bootstrap 5, the attributes required a <code>-bs-</code> in the middle, for example, instead of <code>data-toggle</code> as shown in the Bootstrap example, I had to use <code>data-bs-toggle</code>. This made me learn that sometimes the code in Bootstrap may not be updated hence will not work and googling for help is really useful to finding solutions. Another thing I learnt while implementing Bootstrap Collapse is the purpose of the attributes, such as <code>data-bs-target</code>, where it will find the <code>id</code> that matches the value in it for the section to collapse/expand. Lastly, as I wanted to make the buttons interactive and aesthetic, I wanted for them to change colors when clicked. In order to accomplish that, I had to get the <code>background-color</code> value of the button. I realised this could not be done with what I had learnt so far. Through research, I learnt about the methods <code>window.getComputedStyle()</code> and <code>.getPropertyValue()</code> which helped me to achieve what I wanted.
+        </p>
+        <p>For my article 'Ageing', I wanted to use a chart to display the information to the readers. To acheive this, I used <a href="https://apexcharts.com/javascript-chart-demos/line-charts/basic/" target="_blank">Apex Charts basic line chart (opens in a new window)</a>. It is a morden charting library where I used its javascript and API for my implementation. To use Apex Chart for my website, I had to learn how to read its documentation. I added their javascript code and changed the sample data values to the values that I wanted to use for my chart. I also learnt to infer from the code that since there was a part <code>var chart = new ApexCharts(document.querySelector("#chart"), options);</code> and <code> chart.render();</code> to render the element with the <code>id</code> from the document, there should be an element with the <code>id="chart"</code>. Since I did not see any code with this part in the documentation, I figured that I had to add this in the HTML code on my own and it really worked. This made me gain the importance of understanding the code that I am using in order to apply it successfully. Another challenge I faced while implementing the chart was figuring out how to change the color scheme of the chart to match my website. I read many parts of the documentation and experimented with adding different things to the code and finally managed to do it. I learnt that I can modify the sample code Apex Charts provided and add on object keys and values to customise the charts to look the way I want.
+        </p>
+
+        <!-- Evaluation 1 -->
+        <h3 style="text-decoration: underline;">Evaluation 1:</h3>
+        <p>I wanted my website to have a black and green color scheme and for the website to look clean and easy to read. I think I did well in maintaining this design accross the website. I put in effort to include the green color scheme in my article features wherever possible, such as the green-colored borders around the pictures and facts container in the 'Facts: Tuberculosis' article. Another example is the green-colored underlines beneath headers throughout the pages. I think this worked well in making the website look visually aesthetic and easy to read for the users and gives the website a unique look as well.
+        </p>
+        <p>Another thing I think that worked well is the interactive design/functionalities across the website. I think that these interactions helps to keep the readers engaged while reading information from the article. Examples of such design/functionalities are the cards in the homepage that will translate up whenever the mouse hovers over it, the collapse buttons to display q&a answers in the article 'Virus: Monkey Pox' and the facts carousel in the article 'Facts: Tuberculosis' that will display different facts when clicked. Without these design/functionalities, the website would be duller to read in my opinion.
+        </p>
+        <p>I think another thing that worked well is the 'Read More' section at the end of every article as it is interactive, visually appealing and useful. It is interactive as the cards that link to other articles will translate up whenever the mouse is hovered over it. Additionally, it is originally invisible until the user scrolls to that part, where it will slide into the screen in different directions (the header will slide in from top to bottom, article links will slide in from left to right). I feel that this makes the website more interactive and visually aesthetic. It is also useful, as mentioned above in the usability section, where it provides a way for readers to navigate to other articles efficiently as soon as they read finish the current article. Furthermore, I believe having this 'Read More' section at the bottom of the article encourages users to stay on the website longer as they will be offered the option to continue using the website by browsing through other articles.
+        </p>
+
+        <!-- Evaluation 2 -->
+        <h3 style="text-decoration: underline;">Evaluation 2:</h3>
+        <p>One think I feel I could do better is by adding more features to make my website look more professional. After completing my website, I felt that it looks simple and recalled my research on other websites, I realised that other websites had more features for the purpose of their site, such as a login/register button, subscribe section and advertisements. Hence, in the future, I would consider adding in these features to make the website more complete and professional.
+        </p>
+        <p>Another thing I feel that can be improved on is my use of fonts and font sizes. Design is an important aspect of a website as it plays a part in forming an impression about the website for the user when they visit. I feel that my fonts especially for the article information could be better by being bigger and easier to read. I also feel my font sizes could be chosen more wisely to differentiate the different sections. For example, in the article 'Virus: Monkey Pox', the questions are the same font size as the answers. Hence, in the future, I would spend more time on selecting the appropriate fonts and font sizes for the website. 
+        </p>
+
+        <!-- Resources -->
+        <h3 style="text-decoration: underline;">Resources:</h3>
+        
+        <!-- Website Inspirations -->
+        <p style="text-decoration: underline;"><b>Website Inspirations:</b></p>
+        <p>nationalgeographic.com, 'National Geographic', n.d. [Online]. Available: https://www.nationalgeographic.com/ [Accessed: 10-Aug-2022]</p>
+        <p>free-css.com, 'Newserific Free CSS Template', 2008. [Online]. Available: https://www.free-css.com/free-css-templates/page2/newserific [Accessed: 10-Aug-2022]</p>
+        <p>who.int, 'World Health Organisation', n.d. [Online]. Available: https://www.who.int/ [Accessed: 10-Aug-2022]</p>
+
+        <!-- Article Content -->
+        <p style="text-decoration: underline;"><b>Article Content Taken From:</b></p>
+        <p>who.int, 'World Health Organisation', n.d. [Online]. Available: https://www.who.int/ [Accessed: 10-Aug-2022]</p>
+        <span><b>Virus Article:</b></span>
+        <span>who.int, 'Monkey Pox', 2022. [Online]. Available: https://www.who.int/news-room/questions-and-answers/item/monkeypox [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Drugs Article:</b></span>
+        <span>who.int, 'Quitting Tobacco', n.d. [Online]. Available: https://www.who.int/activities/quitting-tobacco [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Environment Article:</b></span>
+        <span>who.int, 'Billions of people still breathe unhealthy air: new WHO data', 2022. [Online]. Available: https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Ageing Article:</b></span>
+        <span>who.int, 'Ageing: Global population', 2010. [Online]. Available: https://www.who.int/news-room/questions-and-answers/item/population-ageing [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Ageing Article Apex Chart Content Citation:</b></span>
+        <span>who.int, 'Maternal, newborn, child and adolescent health and ageing data portal', n.d. [Online]. Available: https://platform.who.int/data/maternal-newborn-child-adolescent-ageing/indicator-explorer-new/mca/number-of-persons-aged-over-60-years-or-over-(thousands) [Accessed: 12-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Facts Article:</b></span>
+        <span>who.int, '10 facts on tuberculosis', 2021. [Online]. Available: https://www.who.int/news-room/facts-in-pictures/detail/tuberculosis [Accessed: 11-Aug-2022]</span>
+
+        <!-- Resources Citation -->
+        <p style="text-decoration: underline;"><b>Resources Citation:</b></p>
+        <p>getbootstrap.com, 'Grid system', n.d. [Online]. Available: https://getbootstrap.com/docs/4.0/layout/grid/ [Accessed: 12-Aug-2022]</p>
+        <p>getbootstrap.com, 'Collapse', n.d. [Online]. Available: https://getbootstrap.com/docs/4.0/components/collapse/ [Accessed: 12-Aug-2022]</p>
+        <p>getbootstrap.com, 'Carousel', n.d. [Online]. Available: https://getbootstrap.com/docs/5.2/components/carousel/ [Accessed: 12-Aug-2022]</p>
+        <p>apexcharts.com, 'Chart Demos > Line Charts > Basic', n.d. [Online]. Available: https://apexcharts.com/javascript-chart-demos/line-charts/basic/ [Accessed: 12-Aug-2022]</p>
+
+        <!-- Fonts -->
+        <p style="text-decoration: underline;"><b>Fonts:</b></p>
+        <span><b>Logo Font:</b></span>
+        <span>Cameral Dias, 'Karmatic Arcade Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/karmatic-arcade.font [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Navigation Font:</b></span>
+        <span>Cameral Dias, F Mello, J Smith, P Garnham, S de Rozario, 'ITV Reem Web Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/itv-reem-web.font [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Header Font:</b></span>
+        <span>Cameral Dias, McLetters, 'Labor Union Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/labor-union.font [Accessed: 11-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Description Font:</b></span>
+        <span>Cameral Dias, Eko Bimantara, 'Hando Soft Trial Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/hando-soft-trial.font [Accessed: 11-Aug-2022]</span>
+
+        <!-- Icons -->
+        <p style="text-decoration: underline;"><b>Bootstrap Social Media Icons:</b></p>
+        <p>icons.getbootstrap.com, 'Facebook', n.d. [Online]. Available: https://icons.getbootstrap.com/icons/facebook/ [Accessed: 11-Aug-2022]</p>
+        <p>icons.getbootstrap.com, 'Instagram', n.d. [Online]. Available: https://icons.getbootstrap.com/icons/instagram/ [Accessed: 11-Aug-2022]</p>
+        <p>icons.getbootstrap.com, 'Linkedin', n.d. [Online]. Available: https://icons.getbootstrap.com/icons/linkedin/ [Accessed: 11-Aug-2022]</p>
+        <p>icons.getbootstrap.com, 'Twitter', n.d. [Online]. Available: https://icons.getbootstrap.com/icons/twitter/ [Accessed: 11-Aug-2022]</p>
+        <p>icons.getbootstrap.com, 'Youtube', n.d. [Online]. Available: https://icons.getbootstrap.com/icons/youtube/ [Accessed: 11-Aug-2022]</p>
+
+        <!-- Pictures -->
+        <p style="text-decoration: underline;"><b>Picture Citations:</b></p>
+        <p style="text-decoration: underline;"><b>Index Page:</b></p>
+        <span><b>Ageing Image:</b></span>
+        <span>Sean Duke, 'Episode 3: Can science defeat ageing? CRISPR for CF; How will autonomous cars change our cities?', 2018. [Online]. Available: https://sciencespinning.com/2018/05/25/can-science-defeat-ageing-crispr-for-cf-how-will-autonomous-cars-will-change-our-cities/ [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Tuberculosis Image:</b></span>
+        <span>The Conversation, 'Articles on Tuberculosis', 2022. [Online]. Available: https://theconversation.com/ca/topics/tuberculosis-1412 [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>Environment Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@thomasrichter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Richter</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>Drugs Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@kilianfoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kilian Seiler</a> on <a href="https://unsplash.com/s/photos/tobacco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>Virus Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/s/photos/virus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        
+        <p style="text-decoration: underline;"><b>Virus Page:</b></p>
+        <span><b>monkeypox-symptoms Image:</b></span>
+        <span>froedtert.com, 'Monkeypox Symptoms, Risk Factors and Prevention', 2022. [Online]. Available: https://www.froedtert.com/stories/monkeypox-symptoms-risk-factors-and-prevention [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>monkeypox-test Image:</b></span>
+        <span>hindustantimes.com, 'Amid concerns over monkeypox, Delhi directs all hospitals to be on alert', 2022. [Online]. Available: https://www.hindustantimes.com/cities/delhi-news/monkeypox-delhi-govt-directs-all-hospitals-to-be-on-alert-101654113914619.html [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>monkeypox-children Image:</b></span>
+        <span>voanews.com, 'Explainer: What is Monkeypox and Where Is it Spreading?', 2022. [Online]. Available: https://www.voanews.com/a/explainer-what-is-monkeypox-and-where-is-it-spreading-/6580815.html [Accessed: 10-Aug-2022]</span>
+
+        <p style="text-decoration: underline;"><b>Drugs Page:</b></p>
+        <span><b>Quitting Tobacco Video:</b></span>
+        <span>AsapSCIENCE, 'What Happens When You Stop Smoking?', 2017. [Online]. Available: https://www.youtube.com/watch?v=o3I0mJ2RfU0 [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>tobacco-components & tobacco-effects:</b></span>
+        <span>mountsinai.org, 'Risks of tobacco', n.d. [Online]. Available: https://www.mountsinai.org/health-library/special-topic/risks-of-tobacco [Accessed: 10-Aug-2022]</span>
+        
+        <p style="text-decoration: underline;"><b>Environment Page:</b></p>
+        <span><b>Background Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@whale?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Smith</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>Carousel First Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@byshark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick</a> on <a href="https://unsplash.com/s/photos/air-pollution?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>Carousel Second Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@boxedwater?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Boxed Water Is Better</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>Carousel Third Image:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@filipz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Filip Zrnzević</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        
+        <p style="text-decoration: underline;"><b>Ageing Page:</b></p>
+        <span><b>ageing-facilities:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@cheungyin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cheung Yin</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>ageing-infographic:</b></span>
+        <span>who.int, 'WHO: Number of people over 60 years set to double by 2050; major societal changes required', 2015. [Online]. Available: https://www.who.int/news/item/30-09-2015-who-number-of-people-over-60-years-set-to-double-by-2050-major-societal-changes-required [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>elderly-family:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@jonecohen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johnny Cohen</a> on <a href="https://unsplash.com/s/photos/elderly-family?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        
+        <p style="text-decoration: underline;"><b>Facts Page:</b></p>
+        <span><b>fact-1-pic:</b></span>
+        <span>Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/s/photos/tuberculosis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        <br>
+        <br>
+        <span><b>fact-2-pic:</b></span>
+        <span>health.clevelandclinic.org, 'Can a Cough Be Related to Heart Issues?', 2022. [Online]. Available: https://health.clevelandclinic.org/persistent-cough-it-may-be-a-sign-of-heart-failure/ [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-3-pic:</b></span>
+        <span>who.int, 'Estimated TB incidence rates, 2016', 2016. [Online]. Available: http://gamapserver.who.int/mapLibrary/Files/Maps/gho_tb_incidence_2016.png [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-4-pic:</b></span>
+        <span>ucl.ac.uk, 'Treatment length reduced for children with tuberculosis', 2022. [Online]. Available: https://www.ucl.ac.uk/news/2022/mar/treatment-length-reduced-children-tuberculosis [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-5-pic:</b></span>
+        <span>Melvin Sanicas, 'What makes TB the world's most infectious killer?', n.d. [Online]. Available: https://www.ted.com/talks/melvin_sanicas_what_makes_tb_the_world_s_most_infectious_killer [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-6-pic:</b></span>
+        <span>Miranda S. Bradley, MD; Carey Jackson, MD, 'Tuberculosis Series: Treatment', 2020. [Online]. Available: https://ethnomed.org/resource/tuberculosis-series-treatment/ [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-7-pic:</b></span>
+        <span>Elizabeth Wangeci, 2016. [Online]. Available: https://www.endtb.org/feature/blog-im-cured-my-fight-against-tb-isnt-over [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-8-pic:</b></span>
+        <span>World Health Organization, 'WHO calls on the world to “Gear up to End TB”', 2015. [Online]. Available: https://www.tbonline.info/posts/print/who-calls-world-gear-end-tb/ [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-9-pic:</b></span>
+        <span>Tanmaya Das, 'Patients with tuberculosis face social stigma', 2021. [Online]. Available: https://www.sundayguardianlive.com/news/patients-tuberculosis-face-social-stigma [Accessed: 10-Aug-2022]</span>
+        <br>
+        <br>
+        <span><b>fact-10-pic:</b></span>
+        <span>tballiance.org, 'With tuberculosis resurgent after two years of COVID-19-inspired neglect, TB Alliance is awarded USAID funding to develop new treatments', 2022. [Online]. Available: https://www.tballiance.org/news/tuberculosis-resurgent-after-two-years-covid-19-inspired-neglect-tb-alliance-awarded-usaid [Accessed: 10-Aug-2022]</span>
+        
+        <!-- Appendices -->
+        <h3 style="text-decoration: underline;">Appendices:</h3>
+        <h2 style="text-align: center; text-decoration: underline;"><b>Site Map</b></h2>
+        <img style="width: 100%;" src="/WD_Finals_Website/WD Finals Sitemap.png" alt="WD Finals Sitemap">
+        <br>
+        <br>
+        <h2 style="text-align: center; text-decoration: underline;"><b>Wireframe</b></h2>
+        <img style="width: 100%;" src="/WD_Finals_Website/WD Finals WireFrame.png" alt="WD Finals Sitemap">
+        <br>
+        <br>
+        <h2 style="text-align: center; text-decoration: underline;"><b>Mock-up</b></h2>
+        <img style="width: 100%;" src="/WD_Finals_Website/WD Finals Mockup.png" alt="WD Finals Sitemap">
+
+    </body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Viewport meta tags -->
+        <meta charset="utf-8">
+        <meta name="keywords" content="health, article, magazine">
+        <meta name="description" content="health topical magazine">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/index.css">
+
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js" defer></script>
+
+        <title>WD Project: Home</title>
+
+    </head>
+
+    <body>
+
+        <!-- Pop Up -->
+        <div class="popup-div container-fluid">
+            <p>Interested to find out more? <a href=""><b>Subscribe now</b></a>.<span onclick="closePopup()">&#10005;</span></p>
+        </div>
+        <!-- Pop Up Behind Div -->
+        <div class="popup-div-behind container-fluid"></div>
+
+        <!-- Navigation Bar -->
+        <nav role="navigation" class="page-nav container-fluid">
+            <div class="row">
+
+                <div class="logo col-2">
+                    <a href="index.html">ProjectHealth</a>
+                </div>
+                <div class="col"></div>
+                <div class="navs-div col-2" id="navs-1-div">
+                    <a class="navs" id="navs-1" href="">Topics</a>
+                    <div class="nav-dropdown">
+                        <a href="virus.html" class="nav-dropdown-div"><div>Virus</div></a>
+                        <a href="drugs.html" class="nav-dropdown-div"><div>Drugs</div></a>
+                        <a href="environment.html" class="nav-dropdown-div"><div>Environment</div></a>
+                        <a href="ageing.html" class="nav-dropdown-div"><div>Ageing</div></a>
+                        <a href="facts.html" class="nav-dropdown-div"><div>Facts</div></a>
+                    </div>
+                </div>
+                <div class="navs-div col-1" id="navs-2-div" onmouseover="mouseoverNavsLink('navs-2')" onmouseout="mouseoutNavsLink('navs-2')">
+                    <a class="navs" id="navs-2" href="">Countries</a>
+                </div>
+                <div class="navs-div col-1" id="navs-3-div" onmouseover="mouseoverNavsLink('navs-3')" onmouseout="mouseoutNavsLink('navs-3')">
+                    <a class="navs" id="navs-3" href="">Data</a>
+                </div>
+                <div class="navs-div col-1" id="navs-4-div" onmouseover="mouseoverNavsLink('navs-4')" onmouseout="mouseoutNavsLink('navs-4')">
+                    <a class="navs" id="navs-4" href="">About</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main role="main" class="page-main container-fluid">
+
+            <header role="banner" class="page-header">
+                <h1 class="header-title">FEATURED</h1>
+                <hr class="header-line">
+            </header>
+
+            <div class="row">
+
+                <!-- Left Side of Page for Article Links -->
+                <section class="col-md-4 col-xs-12">
+
+                    <div class="latest-header-div">
+                        <h1 class="latest-header">Latest</h1>
+                        <hr class="latest-header-line">
+                    </div>
+                    <a href="ageing.html" class="latest-article-div row">
+                        <img class="latest-img col-5" src="images/index/ageing.jpg" alt="ageing image">
+                        <div class="latest-desc col-7">
+                            <h5>AGEING</h5>
+                            <h6>Global population and the challenges</h6>
+                        </div>
+                    </a>
+                    <a href="facts.html" class="latest-article-div row">
+                        <img class="latest-img col-5" src="images/index/tuberculosis.avif" alt="tuberculosis lungs">
+                        <div class="latest-desc col-7">
+                            <h5>FACTS</h5>
+                            <h6>10 Facts on tuberculosis you would want to know</h6>
+                        </div>
+                    </a>
+                    <a href="#" class="latest-article-div row">
+                        <img class="latest-img col-5" src="images/index/ageing.jpg" alt="ageing">
+                        <div class="latest-desc col-7">
+                            <h5>AGEING</h5>
+                            <h6>Global population and the challenges</h6>
+                        </div>
+                    </a>
+                    <a href="#" class="latest-article-div row">
+                        <img class="latest-img col-5" src="images/index/ageing.jpg" alt="ageing">
+                        <div class="latest-desc col-7">
+                            <h5>AGEING</h5>
+                            <h6>Global population and the challenges</h6>
+                        </div>
+                    </a>
+                    <a href="#" class="latest-article-div row">
+                        <img class="latest-img col-5" src="images/index/ageing.jpg" alt="ageing">
+                        <div class="latest-desc col-7">
+                            <h5>AGEING</h5>
+                            <h6>Global population and the challenges</h6>
+                        </div>
+                    </a>
+
+                </section>
+
+                <!-- Right Side of Page for Article Links -->
+                <section class="col-md-8 col-xs">
+
+                    <!-- Large Featured Image -->
+                    <a class="featured-img-div row" href="environment.html">
+                        <img class="featured-img" src="images/index/environment.jpg" alt="windmill land">
+                        <h5 class="featured-img-header">ENVIRONMENT</h5>
+                        <h1 class="featured-img-desc">Billions of people still breathe unhealthy air: new WHO data</h1>
+                    </a>
+
+                    <!-- Small featured Images -->
+                    <div class="featured-img-sm-div row">
+
+                        <a href="drugs.html" class="featured-img-sm-a col-6">
+                            <img class="featured-img-sm" src="images/index/tobacco.jpg" alt="tobacco">
+                            <div class="featured-img-sm-card">
+                                <h4 class="featured-img-sm-header">DRUGS</h4>
+                                <hr class="featured-img-sm-line">
+                                <h5>Among smokers who are aware of the dangers of tobacco, most want to quit</h5>
+                            </div>
+                        </a>
+
+                        <a href="virus.html" class="featured-img-sm-a col-6">
+                            <img class="featured-img-sm" src="images/index/virus.jpg" alt="medical staff looking at virus">
+                            <div class="featured-img-sm-card">
+                                <h4 class="featured-img-sm-header">VIRUS</h4>
+                                <hr class="featured-img-sm-line">
+                                <h5>Monkeypox is an illness caused by the monkeypox virus and is a viral zoonotic infection</h5>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href=""><img class="footer-icon" src="images/facebook.svg" alt="footer facebook icon"></a>
+            <a href=""><img class="footer-icon" src="images/instagram.svg" alt="footer instagram icon"></a>
+            <a href=""><img class="footer-icon" src="images/linkedin.svg" alt="footer linkedim icon"></a>
+            <a href=""><img class="footer-icon" src="images/twitter.svg" alt="footer twitter icon"></a>
+            <a href=""><img class="footer-icon" src="images/youtube.svg" alt="footer youtube icon"></a>
+        </footer>
+
+    </body>
+
+</html>

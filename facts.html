@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- Viewport meta tags -->
+        <meta charset="utf-8">
+        <meta name="keywords" content="health, article, magazine">
+        <meta name="description" content="health topical magazine">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/facts.css">
+
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/facts.js" defer></script>
+
+        <title>WD Project: Facts</title>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+        <nav role="navigation" class="page-nav container-fluid">
+            <div class="row">
+
+                <div class="logo col-2">
+                    <a href="index.html">ProjectHealth</a>
+                </div>
+                <div class="col"></div>
+                <div class="navs-div col-2" id="navs-1-div">
+                    <a class="navs" id="navs-1" href="">Topics</a>
+                    <div class="nav-dropdown">
+                        <a href="virus.html" class="nav-dropdown-div"><div>Virus</div></a>
+                        <a href="drugs.html" class="nav-dropdown-div"><div>Drugs</div></a>
+                        <a href="environment.html" class="nav-dropdown-div"><div>Environment</div></a>
+                        <a href="ageing.html" class="nav-dropdown-div"><div>Ageing</div></a>
+                        <a href="facts.html" class="nav-dropdown-div"><div>Facts</div></a>
+                    </div>
+                </div>
+                <div class="navs-div col-1" id="navs-2-div" onmouseover="mouseoverNavsLink('navs-2')" onmouseout="mouseoutNavsLink('navs-2')">
+                    <a class="navs" id="navs-2" href="">Countries</a>
+                </div>
+                <div class="navs-div col-1" id="navs-3-div" onmouseover="mouseoverNavsLink('navs-3')" onmouseout="mouseoutNavsLink('navs-3')">
+                    <a class="navs" id="navs-3" href="">Data</a>
+                </div>
+                <div class="navs-div col-1" id="navs-4-div" onmouseover="mouseoverNavsLink('navs-4')" onmouseout="mouseoutNavsLink('navs-4')">
+                    <a class="navs" id="navs-4" href="">About</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main role="main" class="page-main container-fluid">
+
+            <header role="banner" class="page-header">
+                <h1 class="header-title">10 FACTS ON TUBERCULOSIS</h1>
+                <hr class="header-line">
+            </header>
+            
+            <!-- Article -->
+            <article class="row article-div">
+                <h6>About one quarter of the world's population is infected with tuberculosis (TB) bacteria. Only a small proportion of those infected will become sick with TB. People with weakened immune systems have a much greater risk of falling ill from TB. A person living with HIV is about 20 times more likely to develop active TB.</h6>
+                <br><br><br>
+                <h6>The WHO End TB Strategy, adopted by the World Health Assembly in May 2014, is a blueprint for countries to end the TB epidemic by driving down TB deaths, incidence and eliminating catastrophic costs. It outlines global impact targets to reduce TB deaths by 90% and to cut new cases by 80% between 2015 and 2030, and to ensure that no family is burdened with catastrophic expenses due to TB.</h6>
+                <br><br><br>
+                <h6>On 26 September 2018, the United Nations (UN) held its first- ever high-level meeting on TB, elevating discussion about the status of the TB epidemic and how to end it to the level of heads of state and government. It followed the first WHO Global Ministerial Conference on Ending TB hosted by the Russian Federation in 2017.</h6>
+            </article>
+
+            <!-- Carousel -->
+            <section class="carousel-section-div row">
+
+                <!-- Left Arrow -->
+                <div class="carousel-arrow-div col-1 col-xs-1 col-md-1">
+                    <h4 onclick="calculate(-1)">&#60;</h4>
+                </div>
+
+                <!-- Fact 1 Pic Div -->
+                <div id="fact-1-pic" class="carousel-img-div col-10 col-xs-10 col-md-2"></div>
+
+                <!-- Fact 2 Pic Div -->
+                <div id="fact-2-pic" class="carousel-img-div col-md-2"></div>
+
+                <!-- Fact 3 Pic Div -->
+                <div id="fact-3-pic" class="carousel-img-div col-md-2"></div>
+
+                <!-- Fact 4 Pic Div -->
+                <div id="fact-4-pic" class="carousel-img-div col-md-2"></div>
+
+                <!-- Fact 5 Pic Div -->
+                <div id="fact-5-pic" class="carousel-img-div col-md-2"></div>
+
+                <!-- Right Arrow -->
+                <div class="carousel-arrow-div col-1 col-xs-1 col-md-1">
+                    <h4 onclick="calculate(1)">&#62;</h4>
+                </div>
+
+            </section>
+
+            <!-- Facts -->
+            <section class="facts-div row"></section>
+
+        </main>
+
+        <!-- Read More Section -->
+        <div class="page-readmore container-fluid">
+            
+            <header class="readmore-header">
+                <h1 class="readmore-title">READ THIS NEXT</h1>
+                <hr class="readmore-line">
+            </header>
+
+            <!-- Read More Articles -->
+            <div class="readmore-article-div row">
+
+                <!-- Read More Article 1 -->
+                <a href="virus.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/virus.jpg" alt="medical staff looking at virus">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">12 August 2022 | Virus</p>
+                        <hr class="readmore-article-line">
+                        <h5>Monkeypox is an illness caused by the monkeypox virus and is a viral zoonotic infection</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 2 -->
+                <a href="drugs.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/tobacco.jpg" alt="tobacco">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">12 August 2022 | Drugs</p>
+                        <hr class="readmore-article-line">
+                        <h5>Among smokers who are aware of the dangers of tobacco, most want to quit</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 3 -->
+                <a href="environment.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/environment.jpg" alt="windmill land">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">2 August 2022 | Environment</p>
+                        <hr class="readmore-article-line">
+                        <h5>Billions of people still breathe unhealthy air: new WHO data</h5>
+                    </div>
+                </a>
+
+                <!-- Read More Article 4 -->
+                <a href="ageing.html" class="readmore-article-a col-3">
+                    <img class="readmore-article-img" src="images/index/ageing.jpg" alt="ageing image">
+                    <div class="readmore-article-card">
+                        <p class="readmore-article-header">2 August 2022 | Ageing</p>
+                        <hr class="readmore-article-line">
+                        <h5>Global population and the challenges</h5>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href=""><img class="footer-icon" src="images/facebook.svg" alt="footer facebook icon"></a>
+            <a href=""><img class="footer-icon" src="images/instagram.svg" alt="footer instagram icon"></a>
+            <a href=""><img class="footer-icon" src="images/linkedin.svg" alt="footer linkedim icon"></a>
+            <a href=""><img class="footer-icon" src="images/twitter.svg" alt="footer twitter icon"></a>
+            <a href=""><img class="footer-icon" src="images/youtube.svg" alt="footer youtube icon"></a>
+        </footer>
+
+    </body>
+
+</html>
