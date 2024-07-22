@@ -60,22 +60,22 @@ This file manages the carousel display and interaction, such as the display of n
 ### Article Content Taken From:
 who.int, 'World Health Organisation', n.d. [Online]. Available: https://www.who.int/ [Accessed: 10-Aug-2022]
 
-#### Virus Article:
+#### Virus Article
 who.int, 'Monkey Pox', 2022. [Online]. Available: https://www.who.int/news-room/questions-and-answers/item/monkeypox [Accessed: 11-Aug-2022]
 
-#### Drugs Article:
+#### Drugs Article
 who.int, 'Quitting Tobacco', n.d. [Online]. Available: https://www.who.int/activities/quitting-tobacco [Accessed: 11-Aug-2022]
 
-#### Environment Article:
+#### Environment Article
 who.int, 'Billions of people still breathe unhealthy air: new WHO data', 2022. [Online]. Available: https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data [Accessed: 11-Aug-2022]
 
-#### Ageing Article:
+#### Ageing Article
 who.int, 'Ageing: Global population', 2010. [Online]. Available: https://www.who.int/news-room/questions-and-answers/item/population-ageing [Accessed: 11-Aug-2022]
 
-#### Ageing Article Apex Chart Content Citation:
+#### Ageing Article Apex Chart Content Citation
 who.int, 'Maternal, newborn, child and adolescent health and ageing data portal', n.d. [Online]. Available: https://platform.who.int/data/maternal-newborn-child-adolescent-ageing/indicator-explorer-new/mca/number-of-persons-aged-over-60-years-or-over-(thousands) [Accessed: 12-Aug-2022]
 
-#### Facts Article:
+#### Facts Article
 who.int, '10 facts on tuberculosis', 2021. [Online]. Available: https://www.who.int/news-room/facts-in-pictures/detail/tuberculosis [Accessed: 11-Aug-2022]
 
 ### Resources Citation:
@@ -85,16 +85,16 @@ who.int, '10 facts on tuberculosis', 2021. [Online]. Available: https://www.who.
 - apexcharts.com, 'Chart Demos > Line Charts > Basic', n.d. [Online]. Available: https://apexcharts.com/javascript-chart-demos/line-charts/basic/ [Accessed: 12-Aug-2022]
 
 ### Fonts:
-#### Logo Font:
+#### Logo Font
 Cameral Dias, 'Karmatic Arcade Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/karmatic-arcade.font [Accessed: 11-Aug-2022]
 
-#### Navigation Font:
+#### Navigation Font
 Cameral Dias, F Mello, J Smith, P Garnham, S de Rozario, 'ITV Reem Web Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/itv-reem-web.font [Accessed: 11-Aug-2022]
 
-#### Header Font:
+#### Header Font
 Cameral Dias, McLetters, 'Labor Union Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/labor-union.font [Accessed: 11-Aug-2022]
 
-#### Description Font:
+#### Description Font
 Cameral Dias, Eko Bimantara, 'Hando Soft Trial Font Family', n.d. [Online]. Available: https://www.cdnfonts.com/hando-soft-trial.font [Accessed: 11-Aug-2022]
 
 ### Bootstrap Social Media Icons:
@@ -105,49 +105,44 @@ Cameral Dias, Eko Bimantara, 'Hando Soft Trial Font Family', n.d. [Online]. Avai
 - icons.getbootstrap.com, 'Youtube', n.d. [Online]. Available: https://icons.getbootstrap.com/icons/youtube/ [Accessed: 11-Aug-2022]
 
 ### Picture Citations:
-#### Index Page
-#### Ageing Image:
+#### Ageing Image
 Sean Duke, 'Episode 3: Can science defeat ageing? CRISPR for CF; How will autonomous cars change our cities?', 2018. [Online]. Available: https://sciencespinning.com/2018/05/25/can-science-defeat-ageing-crispr-for-cf-how-will-autonomous-cars-will-change-our-cities/ [Accessed: 10-Aug-2022]
-#### Tuberculosis Image:
+#### Tuberculosis Image
 The Conversation, 'Articles on Tuberculosis', 2022. [Online]. Available: https://theconversation.com/ca/topics/tuberculosis-1412 [Accessed: 10-Aug-2022]
-#### Environment Image:
+#### Environment Image
 Photo by <a href="https://unsplash.com/@thomasrichter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas Richter</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-#### Drugs Image:
+#### Drugs Image
 Photo by <a href="https://unsplash.com/@kilianfoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kilian Seiler</a> on <a href="https://unsplash.com/s/photos/tobacco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-#### Virus Image:
+#### Virus Image
 Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/s/photos/virus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-#### Virus Page
-#### monkeypox-symptoms Image:
+#### monkeypox-symptoms Image
 froedtert.com, 'Monkeypox Symptoms, Risk Factors and Prevention', 2022. [Online]. Available: https://www.froedtert.com/stories/monkeypox-symptoms-risk-factors-and-prevention [Accessed: 10-Aug-2022]
-#### monkeypox-test Image:
+#### monkeypox-test Image
 hindustantimes.com, 'Amid concerns over monkeypox, Delhi directs all hospitals to be on alert', 2022. [Online]. Available: https://www.hindustantimes.com/cities/delhi-news/monkeypox-delhi-govt-directs-all-hospitals-to-be-on-alert-101654113914619.html [Accessed: 10-Aug-2022]
-#### monkeypox-children Image:
+#### monkeypox-children Image
 voanews.com, 'Explainer: What is Monkeypox and Where Is it Spreading?', 2022. [Online]. Available: https://www.voanews.com/a/explainer-what-is-monkeypox-and-where-is-it-spreading-/6580815.html [Accessed: 10-Aug-2022]
 
-#### Drugs Page
-#### Quitting Tobacco Video:
+#### Quitting Tobacco Video
 AsapSCIENCE, 'What Happens When You Stop Smoking?', 2017. [Online]. Available: https://www.youtube.com/watch?v=o3I0mJ2RfU0 [Accessed: 10-Aug-2022]
-#### tobacco-components & tobacco-effects:
+#### tobacco-components & tobacco-effects
 mountsinai.org, 'Risks of tobacco', n.d. [Online]. Available: https://www.mountsinai.org/health-library/special-topic/risks-of-tobacco [Accessed: 10-Aug-2022]
 
-#### Environment Page
-#### Background Image:
+#### Environemnt Page Background Image
 Photo by <a href="https://unsplash.com/@whale?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Smith</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-#### Carousel Images:
+#### Carousel Images
 - Photo by <a href="https://unsplash.com/@byshark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick</a> on <a href="https://unsplash.com/s/photos/air-pollution?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Photo by <a href="https://unsplash.com/@boxedwater?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Boxed Water Is Better</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Photo by <a href="https://unsplash.com/@filipz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Filip Zrnzević</a> on <a href="https://unsplash.com/s/photos/environment?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-#### Ageing Page
-#### ageing-facilities:
+#### ageing-facilities
 Photo by <a href="https://unsplash.com/@cheungyin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cheung Yin</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-#### ageing-infographic:
+#### ageing-infographic
 who.int, 'WHO: Number of people over 60 years set to double by 2050; major societal changes required', 2015. [Online]. Available: https://www.who.int/news/item/30-09-2015-who-number-of-people-over-60-years-set-to-double-by-2050-major-societal-changes-required [Accessed: 10-Aug-2022]
-#### elderly-family:
+#### elderly-family
 Photo by <a href="https://unsplash.com/@jonecohen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Johnny Cohen</a> on <a href="https://unsplash.com/s/photos/elderly-family?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-#### Facts Page:
+#### Facts Page
 - Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/s/photos/tuberculosis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - health.clevelandclinic.org, 'Can a Cough Be Related to Heart Issues?', 2022. [Online]. Available: https://health.clevelandclinic.org/persistent-cough-it-may-be-a-sign-of-heart-failure/ [Accessed: 10-Aug-2022]
 - who.int, 'Estimated TB incidence rates, 2016', 2016. [Online]. Available: http://gamapserver.who.int/mapLibrary/Files/Maps/gho_tb_incidence_2016.png [Accessed: 10-Aug-2022]
