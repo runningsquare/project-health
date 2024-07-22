@@ -1,5 +1,6 @@
 # PROJECTHEALTH
 Web Development course final assignment (Aug 2022)
+<b>Github Pages:</b> https://runningsquare.github.io/projectHealth/
 
 ## Description:
 ProjectHealth is a simple website that displays articles on topics about health.
