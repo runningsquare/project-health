@@ -1,5 +1,6 @@
 # PROJECTHEALTH
 Web Development course final assignment (Aug 2022)
+<br>
 <b>Github Pages:</b> https://runningsquare.github.io/projectHealth/
 
 ## Description:
