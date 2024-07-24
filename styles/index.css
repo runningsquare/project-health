@@ -2,19 +2,19 @@
 /* Logo Font */
 @font-face {
     font-family: karmaticArcade;
-    src: url(/projectHealth/fonts/karmatic_arcade.ttf);
+    src: url(/runningsquare/projectHealth/fonts/karmatic_arcade.ttf);
 }
 
 /* Navigation Font */
 @font-face {
     font-family: itvReemWebmedium;
-    src: url(/projectHealth/fonts/itv_reem_webmedium.ttf);
+    src: url(/runningsquare/projectHealth/fonts/itv_reem_webmedium.ttf);
 }
 
 /* Header Font */
 @font-face {
     font-family: laborUnion;
-    src: url(/projectHealth/fonts/labor_union.otf);
+    src: url(/runningsquare/projectHealth/fonts/labor_union.otf);
 }
 
 body {
