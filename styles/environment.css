@@ -2,25 +2,25 @@
 /* Logo Font */
 @font-face {
     font-family: karmaticArcade;
-    src: url(./fonts/karmatic_arcade.ttf);
+    src: url(../fonts/karmatic_arcade.ttf);
 }
 
 /* Navigation Font */
 @font-face {
     font-family: itvReemWebmedium;
-    src: url(./fonts/itv_reem_webmedium.ttf);
+    src: url(../fonts/itv_reem_webmedium.ttf);
 }
 
 /* Header Font */
 @font-face {
     font-family: laborUnion;
-    src: url(./fonts/labor_union.otf);
+    src: url(../fonts/labor_union.otf);
 }
 
 /* Description Font */
 @font-face {
     font-family: handoSoftTrialRegular;
-    src: url(./fonts/hando_soft_trial_regular.ttf);
+    src: url(../fonts/hando_soft_trial_regular.ttf);
 }
 
 body {
@@ -176,7 +176,7 @@ body {
 }
 
 .page-main-2 {
-    background-image: url("images/environment/environment-background.jpg");
+    background-image: url("../images/environment/environment-background.jpg");
     background-size: cover;
     padding-bottom: 7%;
     background-position: center;
